@@ -168,10 +168,10 @@ margin: 5px;
 
  body{
    width: 100%;
-    height: 100%;
+   height: auto;
    background-image: url('https://www.mountain-forecast.com/system/images/20426/large_illustration/Turbacz.jpg');
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: auto;
 }
 
 
