@@ -31,7 +31,7 @@ const NewCard = props =>{
             <span style={{fontSize:"25px",fontWeight:"bold",color:"#e65965",fontFamily:"serif"}}>{props.nextday!==undefined ? getday(props.nextday): props.day}</span><br/>
            <span style={{fontSize:"18px",color:"#34495E",fontFamily:"Georgia"}}>Date:{props.nextday!==undefined ? getdate(props.nextday): props.date}</span>
        <hr/>
-             <span style={{fontSize:"22px",color:"#b2abff",fontFamily:"serif",margin:"10px",lineHeight:"20px"}}>Feels_Like: {props.nextday!==undefined ? props.nextday.feels_like.day : '**'}℃</span>
+             <span style={{fontSize:"15px",color:"#b2abff",fontFamily:"serif",margin:"10px",lineHeight:"20px"}}>Feels_Like: {props.nextday!==undefined ? props.nextday.feels_like.day : '**'}℃</span>
             </div><br/>
             <div className="imagetemp-container">
                <div><img width="50px" height="50px" src={props.nextday!==undefined?getsrc(props.nextday):props.icon} alt="weather-icon"/></div>
