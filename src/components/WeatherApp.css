@@ -1,179 +1,16 @@
 
-
-/* 
-.container {
-    display: flex;
-    background-image: url('data:image/jpeg;base64,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');
-    background-size: cover;
-    background-repeat: no-repeat;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 700px;
-} */
-
-/* .left-container{
-margin: 30px;
-height:500px ;
-border-radius: 15px;
-width: 45%;
-background-image:url('https://upload.wikimedia.org/wikipedia/commons/f/f6/Ktmcity4.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-opacity: 0.9;
-} */
-/* 
-.right-container{
-margin: 30px;
-height:500px;
-width: 45%;
-border-radius: 15px;
-background-image: url('https://energywatch-inc.com/wp-content/uploads/2021/03/5a94ef342a5d5.image_.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-opacity: 0.8;
-
-} */
-/* .input-group{
-    width: auto;
-    height: 80px;
-    
-    margin-top: 40px;
-    margin-bottom:15px;
-} */
-
-/* .geolocation{
-   width: 50px;
-   padding: 12px;
-   margin-left: 230px;
-   border: none;
-   border-radius: 5px;
-
-} */
-/* .heading{
-    text-align: center;
-    font-size: 29px;
-    font-weight: 400px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color:whitesmoke;   
-} */
-/* .title{
-margin-top:30px;
-margin-left: 30px;
-} */
-/* 
-.weather-title{
-    font-size: 20px;
-    color: rgb(229, 252, 244);
-    font-family: regular;
-
-} */
-/* .weather-details{
-margin-top:80px;
-display: flex;
-height: 200px;
-justify-content: center;
-} */
-/* .details-item{
-    display: flex;
-    width: 300px;
-    flex-direction: row;
-    justify-content: space-between;
-   
-     
-} */
-/* .details-title{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    font-size: 1.5rem;
-    font-family: Trebuchet MS;
-    font-weight: 800;
-    color: whitesmoke;
-   
-} */
-/* .details-title-value{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    font-size: 1.5rem;
-    font-family: Trebuchet MS;
-    font-weight: 800;
-    color: whitesmoke;
-}
-.weather-details h4{
-    font-size: 24px;
-    color: white
-} */
-
- /*main container*/
-/* .temp-container{
-    display: flex;
-    align-items: stretch;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 318px;
- 
-}
-
-.temp-value{
- display: flex;
- flex-wrap: wrap;
- margin: 10px;
- align-items: center;
- justify-content: center;
-
-}
-
-.temp-value h1{
-    font-family: Arial;
-    font-weight: bold;
-    color: seashell;
-    font-size: 38px;
-}
-
-.location-timedate {
-
-display: flex;
-margin: 5px;
- line-height: 25px;
- margin-top: 20px;
- flex-direction: column;
-} */
-
-
-/* .location-text{
-    font-size: 24px;
-    font-family: Verdana;
-    color: aqua;
-}
-.location-text2{
-    font-family: Verdana;
-    color: aliceblue
-}
-.icon-text{
-    display: flex;
-    margin: 10px;
-    flex-direction: column;
-    align-items: center;
-     
-}
-.icon-text img{
-    width: 50px;
-    height: 50px;
-   
-}
- */
-
-
- body{
+body{
    width: 100%;
    height: auto;
-   background-image: url('https://www.mountain-forecast.com/system/images/20426/large_illustration/Turbacz.jpg');
-   background-repeat: no-repeat;
-   background-size: auto;
+   /* background-image: url('https://djmag.com/sites/default/files/article/image/1-whytheweathe.jpg'); */
+   background-color:snow;
+  
 }
-
+.loading{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+}
 
 .search-bar{
 display: flex;
@@ -214,7 +51,6 @@ label{
   }
 .wrapper-container{
     display: flex;
-    margin:10px;
     justify-content: center;
     align-items: center;
     flex-direction: cloumn;
@@ -277,19 +113,18 @@ td{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;   
+    justify-content: space-evenly;   
 }
 
 .container-weather{
     height:22rem;
     width:16rem;
     padding: 1px;
-    background-color: #afd3f5;
-    margin-top: 28px;
+    background-color: rgb(250, 241, 241);
+    margin-top: 10px;
     /* background-image: url('https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722376/after_noon.png?compress=1&resize=400x300'); */
     border-radius: 20px;
-    box-shadow:
-    3px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    box-shadow: 3px 2.8px 2.2px rgba(0, 0, 0, 0.02),
     7.2px 6.7px 5.3px rgba(0, 0, 0, 0.028),
     13.6px 12.5px 10px rgba(0, 0, 0, 0.035),
     24.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
@@ -298,7 +133,7 @@ td{
 }
 .ddp-container{
     margin: 5px;
-    background-color:#F8F9F9;
+    background-color:#b6cff3;
     border-radius: 20px;
     display: flex;
     height: 125px;

@@ -2,10 +2,7 @@ import React from 'react';
 import './WeatherApp.css'
 import Tabldata from './Tabledata';
 import NewCard from './NewCard';
-
-
 const Content=(props)=>{
-   
        return(
         <>
         <div className="wrapper-container">
@@ -34,7 +31,7 @@ const Content=(props)=>{
 
 <div className="weather-container">
     {
-     props.ffforecast !==undefined  ? props.ffforecast.map((item,index)=>{
+     props.ffforecast !==undefined   ? props.ffforecast.map((item,index)=>{
         return <NewCard key={index} nextday={item}/>
     }) : <NewCard />
   
@@ -59,7 +56,7 @@ Content.defaultProps= {
     country:"Nepal",
     temp:"18",
     day:"Haze",
-    src:"/weathericon/sun.png",
+    src:"http://openweathermap.org/img/wn/01d.png",
     sunrise:"00:00:00",
     sunset:"00:00:00",
     temp_min:"--",

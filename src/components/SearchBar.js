@@ -3,7 +3,6 @@
   import Erroralert from './Erroralert';
 class SearchBar extends React.Component{
   state={searchcity:"",errmsg:""}
-
   onInputchange=(event)=>{
     this.setState({searchcity:event.target.value})
   }
